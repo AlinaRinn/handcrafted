@@ -79,9 +79,7 @@ function main_handcrafting_loop(event)
 			if player.cheat_mode or player.controller_type == defines.controllers.editor then
 				deregister_handcrafting(pid)
 			else
-				if not accelerate_handcrafting(pid,player) then
-					deregister_handcrafting(pid)
-				end
+				accelerate_handcrafting(pid,player)
 			end		
 		end
 	end
