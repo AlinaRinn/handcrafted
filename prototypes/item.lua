@@ -16,7 +16,7 @@ data:extend{
         type = "ammo", --still hate it
         name = "pneumatic-tools",
         icon = "__handcrafted__/graphics/pneumatic-tools.png",
-        icon_size = 256, icon_mipmaps = 4,
+        icon_size = 64, icon_mipmaps = 4,
         subgroup = "tool",
         order = "b[repair]-d[pneumatic-tools]",
         stack_size = 30,
@@ -42,7 +42,7 @@ data:extend{
 	    type = "ammo", --still hate it
         name = "electric-tools",
         icon = "__handcrafted__/graphics/electric-tools.png",
-        icon_size = 256, icon_mipmaps = 4,
+        icon_size = 64, icon_mipmaps = 4,
         subgroup = "tool",
         order = "b[repair]-f[electric-tools]",
         stack_size = 30,
